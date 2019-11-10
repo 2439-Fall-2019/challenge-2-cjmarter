@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cole Marter | INFO 2439 | Final Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="themes/finaltheme.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="_css/final.css">
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+<!-- Cole Marter
+     final.htm
+     INFO2439
+     Thoendel
+     11/9/19
+-->
+<div data-role="page" id="splashpage">
+<a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+    <h1>Welcome!</h1>
+    <img src="_images/splashpage.png" style="width:900px; height:467px" /><br>
+    <a href="#page1" class="enter_link">Enter the website</a>
+</div>
+<div data-role="page" id="page1" data-add-back-btn="true" data-title="Cole Marter | INFO 2439 | Final Project">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+	  <h1>Final Project<br>Music Genres</h1>
+      </p>
+    </div>
+  <ul data-role="listview">
+  <li><a data-ajax="false" href="#page2">Pop</a></li>
+  <li><a data-ajax="false" href="#page3">Rock</a></li>
+  <li><a data-ajax="false" href="#page4">Folk</a></li>
+  <li><a data-ajax="false" href="#page5">Hip Hop</a></li>
+  <li><a data-ajax="false" href="#page6">Website Survey</a></li>
+  <li><a data-ajax="false" href="#page7">Credits</a></li>
+  <li><a data-ajax="false" href="#page8">Design Docs (Wireframe)</a></li>
+  <li><a data-ajax="false" href="#page9">Source Code</a></li>
+  </ul>
+    <img src="_images/music.png" style="width:993px; height:546px" title="music" alt="music" class="center"></a><br>
+  <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  <h5><p>Share on:
+  <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+</p>
+</h5>
+  </div>
+  </div>
+  
+  <div data-role="page" id="page2" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+       <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Pop</h1>
+	  </div>
+	  <h2>Summary</h2>
+	  <p>
+	  Pop music, more than any other genre, is closely tied to the economic forces of mass production and mass marketing. The first popular standards were a result of the new market for sheet music in the 19th century. For the first time, songwriters could earn a living from consumers without a traveling show or a supportive patron. The invention of the phonographic cylinder at the tail end of the 19th century, and the more lasting disc technology developed at the beginning of the 20th century took the standardization of songs and potential for mass consumption a step further.<br>
+Non-Classical Music in the first half of the 20th century was broadly referred to as "popular" music, not "pop" music. Nonetheless, the popular music from the 1900s to the 1940s that appealed to the most mainstream tastes in America, is generally recognized now as Traditional Pop.<br>
+The dynamic post-World War II economy and the advent of the Rock & Roll era brought about a new age of teen consumerism and the first wave of Teen Pop celebrities. Various sources suggest the use of the word "pop" dating back well before the 1950s, but it was certainly the '50s when it took hold as a cultural phenomenon.<br>
+Because "pop" can simply mean what is or was popular in many different times and places, defining it more narrowly as an actual musical genre is arguably ill-advised. Nonetheless, most pop music does share many distinct traits. Pop music is generally designed to be catchy, with a beat or a melody or a lyric or a hook (or all four) that are readily accessible, particularly to young people. It is also produced, often by large and expert teams, in way that removes any rough edges.<br>
+Pop music, more so than Rock music, also tends to emphasize the vocalist as the lead performer. As such, pop songs tend to be somewhat short with only brief instrumental breaks. A basic intro/verse/chorus/verse/chorus structure, or some mild variation on that structure, is very common in pop music and has remained common over the decades.<br>
+In the 1960s, The Beatles brought Pop Rock to the fore, and in doing so challenged some notions of what rough edges might be allowed within the basic construct of pop. In the 1970s, many Soft Rock artists went the other direction and softened pop reducing the centrality of the beat in pop music. By the end of the decade, however, Disco had taken pop in an even more dance oriented direction paving the way for Dance-Pop.<br>
+Pop and R&B have always coexisted with a great deal of direct crossover and indirect crosspollination. In the 1980s those lines were blurred even more as Michael Jackson was crowned the king of pop. In the 21st century, Hip Hop has become a major influence in pop music with many pop stars employing the top hip hop producers to assist in making their hits.
+Pop music has also become globalized to a tremendous extent (e.g., C-Pop, K-Pop, Indian Pop, and Latin Pop) reflecting both a global economy and a growing consumer class in most of the world.
+</p>
+  <ul data-role="listview">
+  <h3>Subgenres</h3>
+  <li><a data-ajax="false" href="#popsub1">Synthpop</a></li>
+  <li><a data-ajax="false" href="#popsub2">Jazz Pop</a></li>
+  <li><a data-ajax="false" href="#popsub3">Pop Rock</a></li>
+  </ul>
+  <img src="_images/popmusic.png" style="width:720px; height:338px" title="popmusic" alt="popmusic" class="center"></a><br>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="page3" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Rock</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+	Rock is a widely popular and vast genre that gathers together a wide range of different styles. Its origins can be traced to US recordings in the late 1940s that combined major elements from Jump-Blues and Swing, with increased prominence given to the role of the electric guitar drawn from Chicago Blues. Even though the term "rock" was originally used by some Blues performers in the late 1930s to describe the bawdier version of their music with faster tempo songs, it went largely unrecorded until the late 1940s.<br>
+Rock in its original form was a song-based type of music that typically used a verse-chorus structure with a backbeat rhythm and the electric guitar at the forefront of the music being heavier and/or faster than its predecessor genres. The structure and sound of rock is based around a prominent electric guitar sound with a bass guitar and drums providing its rhythm (although electric guitars can also sometimes contribute, usually referred to as rhythm guitars in this context). However, rock musicians have experimented with this base structure from the beginning so any two different rock bands may not sound anything alike or even have similar structures. Rock music from its inception has symbolized the counter-culture and served as a vehicle for rebellion and protest, although the proliferation of the genre has diluted this characteristic's importance as a core aspect.<br>
+Rock originated in the southern United States and became popular in the 1950s through its two original forms Rock & Roll and Rockabilly. Rock & roll was used to describe black musicians such as Little Richard and Chuck Berry who played Rhythm & Blues at a faster tempo and incorporated new technical innovations such as the electric guitar, amplifier and microphone. Rockabilly was used to describe young Western Swing performers who incorporated fast-paced rhythm and blues with Country influences. This term tended to be applied to white musicians like Carl Perkins and was popularized by the early recordings of Elvis Presley. This type of music started to decline in popularity in the late 1950s and early 1960s as Pop gained wider prominence, although the development of subgenres such as Surf Rock and Garage Rock retained the public's interest and general relevance of the genre.<br>
+Rock music in the United Kingdom evolved from blues via Skiffle, a genre derived from Jazz and Folk. In the 1960s, the so-called "British Invasion" of UK bands such as The Rolling Stones and The Beatles helped revive mainstream interest in the genre and cement it in the popular culture on both sides of the Atlantic Ocean. These bands tended to recreate elements of American blues and rock & roll and fuse them with music popular in the UK, including Beat Music and Mod, which generated a cross-influence between the US and the UK and led to a boom in popularity.<br>
+During the 1960s, rock music expanded beyond its traditional roots and started to incorporate more and more unconventional aspects such as different guitar effects and distortion, diverse instrumentation, and general experimentation. As rock became commercialized, Pop Rock developed as a more accessible and radio-friendly version. The 1960s also saw the development of Folk Rock, which was widely used in protests around the world, and which subsequently led to the creation of the hallucinogenic drug-influenced Psychedelic Rock. Progressive Rock was also formed in the 1960s and involved the use of other instruments such as keyboards, as well as generally more complex and experimental songwriting.<br>
+In the 1970s, Hard Rock, a garage rock and blues rock influenced subgenre with more aggressive vocals and more pronounced guitar distortion came into prominence. Hard rock laid the foundations for Metal, which turned up the intensity further and would later evolve into many diverse subgenres. The theatrical and campy Glam Rock was developed in the early 1970s and saw immense popularity in the first half of the decade. Punk Rock took off in the mid-1970s and focused on an aggressive, hard-edged, and stripped down sound as well as counter-culture aesthetics. The Punk scene influenced both the mainstream and the underground in the 1980s and gave rise to New Wave, Post-Punk, and eventually, Alternative Rock and Indie Rock whose various forms would become mainstays in subsequent decades.<br>
+In the decades since its inception, rock has continued to evolve, splinter, and crossover with other genres: various diverse subgenres have reached both underground and mainstream popularity and various regional scenes have been developed. Rock has remained a commercial force and has continued to influence and define popular culture in countries across the world.
+</p>
+  <ul data-role="listview">
+  <h3>Subgenres</h3>
+  <li><a data-ajax="false" href="#rocksub1">Art Rock</a></li>
+  <li><a data-ajax="false" href="#rocksub2">Hard Rock</a></li>
+  <li><a data-ajax="false" href="#rocksub3">Punk Rock</a></li>
+  </ul>
+    <img src="_images/rockmusic.png" style="width:600px; height:375px" title="rockmusic" alt="rockmusic" class="center"></a><br>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="page4" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Folk</h1>
+    </div>
+		<h2>Summary</h2>
+	<p>
+	Folk music is a very broad term used for music rooted in the mostly oral traditions of initially rather small social groups. The original context of folk music often was to accompany other types of social activities, like manual labour, religious rites or family gatherings. The eponymous, notoriously difficult "folk" or "people" concept can therefore relate to a number of different aspects: groups defined through ethnicities, tribes, nations, large regions, occupations, religions, families etc. may each serve as parameters for different folk musics (such as Native American Music, Hill Tribe Music, Canadian Folk Music, Work Songs or East Asian Folk Music). It is used as a distinct category from the high art concept of Classical Music and comparatively modern forms of commercially distributed, written popular music (such as Pop or Rock).<br>
+The term nowadays can be divided into two different main categories: Traditional Folk Music and Contemporary Folk. Traditional folk music (as a subcategory of Regional Music) denotes many different types of music with usually specific regional roots and served as the original concept for folk music. Among its typical characteristics are unknown origins of songs (usually replaced with the concept of a collective composing effort through time), an evolutionary approach to songs, and a comparatively fixed repertory of similar tunes which varies in size. A once common criterion – folk music being "rural" as opposed to "urban" – is nowadays widely rejected. Arising in the mid-20th century, contemporary folk is meant to describe music that still has certain forms of European or American folk music as its major influence, yet bringing it from a traditional context into that of popular music.
+</p>
+  <ul data-role="listview">
+  <h3>Subgenres</h3>
+  <li><a data-ajax="false" href="#folksub1">Freak Folk</a></li>
+  <li><a data-ajax="false" href="#folksub2">Chamber Folk</a></li>
+  <li><a data-ajax="false" href="#folksub3">Indie Folk</a></li>
+  </ul>
+    <img src="_images/folkmusic.png" style="width:416px; height:470px" title="folkmusic" alt="folkmusic" class="center"></a><br>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+    <div data-role="page" id="page5" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Hip Hop</h1>
+    </div>
+		<h2>Summary</h2>
+	<p>
+	Emerging mainly on the eastern coast of the United States in the late 1970s, hip hop is a form of music emphasizing rhythmic beat patterns and spoken delivery rather than harmonic melodies and sung vocals. Much of hip hop's roots can be traced to Deejay, a form of Reggae music that an immigrant DJ Kool Herc hoped to emulate in the Bronx borough of New York City. The style quickly took over in uptown neighborhoods such as Harlem and Queens, where many enjoyed the loose, afro-centric nature of the parties Kool Herc would put on. Adapting the format to Disco and Funk breaks rather than the reggae Herc was used to further enhanced the genre's appeal in urban communities.<br>
+The music quickly took over in New York and Connecticut while expanding across the United States and eventually other countries through the 1980s and 1990s. Eventually incorporating Soul and Jazz breaks into its musical lexicon, hip hop as it is known today continues to incorporate sampling of both popular and obscure tracks from the past and present that one or more MCs rap lyrics over in a stylized, rhythmic response or addition to the beat.
+</p>
+  <ul data-role="listview">
+  <h3>Subgenres</h3>
+  <li><a data-ajax="false" href="#rapsub1">Jazz Rap</a></li>
+  <li><a data-ajax="false" href="#rapsub2">Experimental Hip Hop</a></li>
+  <li><a data-ajax="false" href="#rapsub3">Abstract Hip Hop</a></li>
+  </ul>
+  <div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420">
+    <source src="_videos/Alright.mp4" type="video/mp4">
+    <source src="_videos/Alright.ogg" type="video/ogg">
+    Your browser does not support HTML5 video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="popsub1" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Synthpop</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+Synthpop is a style of hook-laden popular music led by a prominent, melodic synthesizer sound. It gained huge commercial success in the 1980s, dominating the UK charts throughout most of the decade, whilst its origins can be traced back to the early to mid-1970s. It developed alongside New Wave and Minimal Synth, drawing influences from Moog-heavy Space Age Pop and various keyboard-orientated styles associated with the Progressive Rock movement, particularly Progressive Electronic. The genre was initially spearheaded by Krautrock band Kraftwerk, as well as other such early examples as Hot Butter.<br>
+Historically, the categorization of the terms synthpop and 'electropop' in relation to each other have led to some confusion. The two genres have sometimes been used interchangeably, but they are not synonyms: Electropop has similar roots, but gained its most widespread exposure in the 21st century, typically consisting of a heavily-produced, stereophonic 'wall of sound' mix; dense layers of arrangement and electronic textures; and crisp, warm low-frequency synthesizer sounds, drawing more from various Electronic Dance Music styles, such as Electro House.<br>
+Synthpop, meanwhile, sounds sparser in relation, mechanical-yet-atmospheric, often with a colder, minimal, more detached feel. Due to when the bulk of the music was made, the synthesizer sound and overall production and arrangement is recognizable as sounding "quintessentially 1980s" (or late 1970s): in general terms, the sound of synthpop can be considered more primal and less 'up-to-date'. This applies to both the original huge wave of the style and more modern artists, the latter often due to a degree of nostalgia and/or emulation and imitation (though sometimes elements of electropop are inherently present due to modern production techniques and recording technology).<br>
+Other common tropes include complementary electric guitar licks; funky basslines (often played on a synthesizer); pulsating drum machine patterns, regularly provided by the Simmons kit; use of sequencers; and quasi-robotic, off-key vocals. The introduction of new computer technology, digital synths (e.g. the Fairlight CMI) and MIDI greatly influenced the development and future of synthpop's sound during 1983 and 1984.<br>
+Representative artists include Orchestral Manoeuvres in the Dark, The Human League, Yazoo, Depeche Mode, Pet Shop Boys, Gary Numan (and Tubeway Army), Thomas Dolby, John Foxx, Soft Cell and Tears for Fears, whilst more modern examples of the sound are Ladytron, Cut Copy, CHVRCHES, Grimes, Crystal Castles and La Roux.<br>
+The style was predominantly exemplified by British acts, but various other notable synthpop scenes appeared on a global scale, such as Sandii & the Sunsetz, early Yellow Magic Orchestra and Plastics from Japan, and European bands a-ha, Alphaville, Propaganda and Camouflage.<br>
+Synthpop lays the foundation for various sub-styles, such as Bitpop, which utilizes Chiptune and 16-bit sounds, and Futurepop, a modern EBM genre.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/mgmt.png" style="width:300px; height:300px" title="MGMT" alt="MGMT"></a><br>
+</div>
+<div class="ui-block-b">
+<p>MGMT<br>Little Dark Age<br>Release Date: 9 February 2018<br>Track Listing:<br>
+1 She Works Out Too Much 4:38<br>
+2 Little Dark Age 4:59<br>
+3 When You Die 4:23<br>
+4 Me and Michael 4:49<br>
+5 TSLAMP 4:29<br>
+6 James 3:52<br>
+7 Days That Got Away 4:44<br>
+8 One Thing Left to Try 4:20<br>
+9 When You're Small 3:30<br>
+10 Hand It Over 4:14
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/theknife.png" style="width:300px; height:300px" title="theknife" alt="theknife"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+The Knife<br>Silent Shout<br>Release Date: 20 March 2006<br>Track Listing:<br>
+1 Silent Shout 4:53<br>
+2 Neverland 3:38<br>
+3 The Captain 6:08<br>
+4 We Share Our Mothers' Health 4:11<br>
+5 Na Na Na 2:27<br>
+6 Marble House 5:18<br>
+7 Like a Pen 6:13<br>
+8 From Off to On 3:57<br>
+9 Forest Families 4:08<br>
+10 One Hit 4:27<br>
+11 Still Light 3:15
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/depechemode.png" style="width:300px; height:300px" title="depechemode" alt="depechemode"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Depeche Mode<br>Violator<br>Release Date: 20 March 1990<br>Track Listing:<br>
+1 World in My Eyes 4:22<br>
+2 Sweetest Perfection 4:40<br>
+3 Personal Jesus 4:52<br>
+4 Halo 4:25<br>
+5 Waiting for the Night 6:05<br>
+6 Enjoy the Silence 6:12<br>
+7 Policy of Truth 4:52<br>
+8 Blue Dress 5:42<br>
+9 Clean 5:23
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+   <div data-role="page" id="popsub2" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Jazz Pop</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+Jazz pop is a style of Pop that incorporates elements from Jazz. The jazz instrumentation is worked into a melodic, accessible pop format that places the primary focus on the vocals. As a result, unlike most jazz, jazz pop contains little to no improvisation, a trait which it shares with Smooth Jazz.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/jonimitchell.png" style="width:300px; height:300px" title="jonimitchell" alt="jonimitchell"></a><br>
+</div>
+<div class="ui-block-b">
+<p>Joni Mitchell<br>The Hissing of Summer Lawns<br>Release Date: November 1975<br>Track Listing:<br>
+1 In France They Kiss on Main Street 3:17<br>
+2 The Jungle Line 4:20<br>
+3 Edith and the Kingpin 3:35<br>
+4 Don't Interrupt the Sorrow 4:04<br>
+5 Shades of Scarlett Conquering 4:57<br>
+6 The Hissing of Summer Lawns 3:00<br>
+7 The Boho Dance 3:56<br>
+8 Harry's House / Centerpiece 6:52<br>
+9 Sweet Bird 4:10<br>
+10 Shadows and Light 4:15
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/paddymcaloon.png" style="width:300px; height:300px" title="paddymcaloon" alt="paddymcaloon"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Paddy McAloon<br>I Trawl the MEGAHERTZ<br>Release Date: 2 June 2003<br>Track Listing:<br>
+1 I Trawl the MEGAHERTZ 22:08<br>
+2 Esprit de Corps 4:52<br>
+3 Fall From Grace 4:51<br>
+4 We Were Poor 3:39<br>
+5 Orchid 7 4:22<br>
+6 I'm 49 3:46<br>
+7 Sleeping Rough 3:30<br>
+8 Ineffable 2:40<br>
+9 ...But We Were Happy 3:48
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/sheenaringo.png" style="width:300px; height:300px" title="sheenaringo" alt="sheenaringo"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+椎名林檎 [Sheena Ringo] x 斎藤ネコ [Neko Saitō]<br>平成風俗 (Heisei Fūzoku)<br>Release Date: 21 February 2007<br>Track Listing:<br>
+1 ギャンブル<br>
+2 茎<br>
+3 錯乱（TERRA Ver.）<br>
+4 ハツコイ娼女<br>
+5 パパイヤマンゴー<br>
+6 意識<br>
+7 浴室<br>
+8 迷彩<br>
+9 ポルターガイスト<br>
+10 カリソメ乙女（TAMEIKESANNOH Ver.）<br>
+11 花魁<br>
+12 夢のあと<br>
+13 この世の限り
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+   <div data-role="page" id="popsub3" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Pop Rock</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+Pop rock is a fusion genre used to describe standard verse-chorus Pop music that can also be categorized under Rock for its use of guitars, drums, and propulsive rhythms. The genre manifested at the tail end of the 1950s as a more radio-friendly alternative to Rock & Roll and R&B, consisting mainly of white performers such as Roy Orbison and Del Shannon. Over the next decade, pop and rock continued to mix together and create new subgenres like Vocal Surf and Beat Music. In the 1970s, pop rock became both rougher (Power Pop) and smoother (Soft Rock); in the 1980s–90s, it fused with some Alternative Rock to make Jangle Pop and Britpop. Today, pop rock remains an active, wide-ranging genre with much crossover between other pop styles.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/thebeatles.png" style="width:300px; height:300px" title="thebeatles" alt="thebeatles"></a><br>
+</div>
+<div class="ui-block-b">
+<p>The Beatles<br>Abbey Road<br>Release Date: 26 September 1969<br>Track Listing:<br>
+1 Come Together<br>
+2 Something<br>
+3 Maxwell's Silver Hammer<br>
+4 Oh! Darling<br>
+5 Octopus's Garden<br>
+6 I Want You (She's So Heavy)<br>
+7 Here Comes the Sun<br>
+8 Because<br>
+9 You Never Give Me Your Money<br>
+10 Sun King<br>
+11 Mean Mr. Mustard<br>
+12 Polythene Pam<br>
+13 She Came In Through the Bathroom Window<br>
+14 Golden Slumbers<br>
+15 Carry That Weight<br>
+16 The End<br>
+17 Her Majesty [hidden track]
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/davidbowie.png" style="width:300px; height:300px" title="davidbowie" alt="davidbowie"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+David Bowie<br>The Rise and Fall of Ziggy Stardust and the Spiders From Mars<br>Release Date: 16 June 1972<br>Track Listing:<br>
+1 Five Years 4:42<br>
+2 Soul Love 3:34<br>
+3 Moonage Daydream 4:40<br>
+4 Starman 4:10<br>
+5 It Ain't Easy 2:58<br>
+6 Lady Stardust 3:22<br>
+7 Star 2:47<br>
+8 Hang On to Yourself 2:40<br>
+9 Ziggy Stardust 3:13<br>
+10 Suffragette City 3:25<br>
+11 Rock 'n' Roll Suicide 2:58
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/thesmiths.png" style="width:300px; height:300px" title="thesmiths" alt="thesmiths"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+The Smiths<br>The Queen Is Dead<br>Release Date: 16 June 1986<br>Track Listing:<br>
+1 The Queen Is Dead / Take Me Back to Dear Old Blighty (Medley) 6:23<br>
+2 Frankly, Mr. Shankly 2:17<br>
+3 I Know It's Over 5:48<br>
+4 Never Had No One Ever 3:36<br>
+5 Cemetry Gates 2:39<br>
+6 Bigmouth Strikes Again 3:12<br>
+7 The Boy With the Thorn in His Side 3:15<br>
+8 Vicar in a Tutu 2:21<br>
+9 There Is a Light That Never Goes Out 4:02<br>
+10 Some Girls Are Bigger Than Others 3:14
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="rocksub1" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Art Rock</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+The term art rock has been employed to describe several works of Rock music developed right after the 1960s Psychedelic Rock explosion. Following on the heels of this phenomenon, art rock has been the result of musicians developing an interest towards a handful of forms of music out of the boundaries of rock and, in general terms, making an attempt to break away as much as possible from the constrains imposed by Rock & Roll (or from the roots of rock itself, which, in turn, inspired genres like Blues Rock, Country Rock or U.S. Folk Rock). A non-musical factor that could explain this development is the conscious transition that certain rock (and non-rock) artists made from singles-based music towards a bigger development of the album as a cohesive lyrical and thematic whole (an important step towards the popularization of the so-called concept album) as shown by the 1966–1967 set of examples like Pet Sounds, Freak Out!, The Who Sell Out or Sgt. Pepper's Lonely Hearts Club Band (which can be counted as forerunners of later art rock).<br>
+The Velvet Underground & Nico, which interpolated raw Garage Rock and psychedelia with lengthy Modern Classical-inspired drone and noise passages, unorthodox guitar tunings with heavy use of feedback, and subject matter generally centered around stark lyrical topics (all tied in with elaborate pop art-inspired imagery and live performances) is considered by critics and fans as the starting point of art rock. This template of limit-breaching rock music, concept-oriented LPs and complex live performances would be the basis for many artists during the 70s that added various influences to this archetype, including Jazz, Western Classical Music, Funk, avant-garde and early Electronic and Ambient music (and even instrumentation typical of some of these styles). Examples of art rock musicians during this stage include Roxy Music (along with the solo careers of Brian Eno and Phil Manzanera, as well as the Roxy-related 801), Pink Floyd, Station to Station/Berlin trilogy-era David Bowie, Peter Gabriel, Barclay James Harvest, Steve Harley/Cockney Rebel and ex-Velvet Underground members Lou Reed and John Cale.<br>
+Ever since its beginnings, art rock has shared connections, musical ties and even presents apparent overlaps with Experimental Rock and Progressive Rock (eventually also bearing a relationship with styles like Art Pop, Glam Rock, Krautrock and Jazz-Rock). While art rock strives to find a level of complexity similar to the one present in these two affiliated genres, it generally features a mix of rock music that tends to follow certain Pop-based structures or patterns along with the aforementioned set of eclectic influences and certain degree of complexity and conceptuality, in contrast to the more classical/jazz-mimicking or inspired patterns of prog suites, or the more radical and angular experimental rock.<br>
+After the Punk Rock explosion of the second half of the 1970s, art rock dissolved, during the following decades, into other forms of rock music, including (but not limited to): Post-Punk, New Wave, Art Punk, and Post-Hardcore. The 1990s and 2000s would then see a series of newer bands taking inspiration from the musical and conceptual leanings of 60s/70s art rock acts (along with other influences) and as such, groups like late-90s/early-00s Radiohead, The Mars Volta, TV on the Radio, dEUS, АукцЫон [Auktyon], and The Mollusk-era Ween have been commonly credited with reviving popular interest in the genre into the new millennium.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/radiohead.png" style="width:300px; height:300px" title="radiohead" alt="radiohead"></a><br>
+</div>
+<div class="ui-block-b">
+<p>Radiohead<br>OK Computer<br>Release Date: 16 June 1997<br>Track Listing:<br>
+1 Airbag 4:44<br>
+2 Paranoid Android 6:23<br>
+3 Subterranean Homesick Alien 4:27<br>
+4 Exit Music (For a Film) 4:24<br>
+5 Let Down 4:59<br>
+6 Karma Police 4:21<br>
+7 Fitter Happier 1:57<br>
+8 Electioneering 3:50<br>
+9 Climbing Up the Walls 4:45<br>
+10 No Surprises 3:48<br>
+11 Lucky 4:19<br>
+12 The Tourist 5:24
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/pinkfloyd.png" style="width:300px; height:300px" title="pinkfloyd" alt="pinkfloyd"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Pink Floyd<br>The Dark Side of the Moon<br>Release Date: 23 March 1973<br>Track Listing:<br>
+1 Speak to Me<br>
+2 Breathe<br>
+3 On the Run<br>
+4 Time<br>
+5 The Great Gig in the Sky<br>
+6 Money<br>
+7 Us and Them<br>
+8 Any Colour You Like<br>
+9 Brain Damage<br>
+10 Eclipse
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/velvetunderground.png" style="width:300px; height:300px" title="velvetunderground" alt="velvetunderground"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+The Velvet Underground & Nico<br>The Velvet Underground & Nico<br>Release Date: 12 March 1976<br>Track Listing:<br>
+1 Sunday Morning 2:53<br>
+2 I'm Waiting for the Man 4:37<br>
+3 Femme Fatale 2:35<br>
+4 Venus in Furs 5:07<br>
+5 Run, Run, Run 4:18<br>
+6 All Tomorrow's Parties 5:55<br>
+7 Heroin 7:05<br>
+8 There She Goes Again 2:30<br>
+9 I'll Be Your Mirror 2:01<br>
+10 The Black Angel's Death Song 3:10<br>
+11 European Son to Delmore Schwartz 7:40
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+   <div data-role="page" id="rocksub2" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Hard Rock</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+	Hard Rock is a form of Rock music originating in the mid-to-late 1960s from Garage Rock and Blues Rock. Typically, hard rock includes an aggressive vocal performance, guitar distortion and power chords. Notable early hard rock groups include Cream, Deep Purple, The Who, and Led Zeppelin.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/blacksabbath.png" style="width:300px; height:300px" title="blacksabbath" alt="blacksabbath"></a><br>
+</div>
+<div class="ui-block-b">
+<p>Black Sabbath<br>Paranoid<br>Release Date: 18 September 1970<br>Track Listing:<br>
+1 War Pigs<br>
+2 Paranoid<br>
+3 Planet Caravan<br>
+4 Iron Man<br>
+5 Electric Funeral<br>
+6 Hand of Doom<br>
+7 Rat Salad<br>
+8 Fairies Wear Boots
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/ledzeppelin.png" style="width:300px; height:300px" title="ledzeppelin" alt="ledzeppelin"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Led Zeppelin<br>Led Zeppelin<br>Release Date: 12 January 1969<br>Track Listing:<br>
+1 Good Times Bad Times 2:46<br>
+2 Babe I'm Gonna Leave You 6:41<br>
+3 You Shook Me 6:27<br>
+4 Dazed and Confused 6:26<br>
+5 Your Time Is Gonna Come 4:34<br>
+6 Black Mountain Side 2:12<br>
+7 Communication Breakdown 2:30<br>
+8 I Can't Quit You Baby 4:42<br>
+9 How Many More Times 8:28<br>
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/iggy.png" style="width:300px; height:300px" title="iggy" alt="iggy"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Iggy and The Stooges<br>Raw Power<br>Release Date: February 1973<br>Track Listing:<br>
+1 Search and Destroy 3:26<br>
+2 Gimme Danger 3:28<br>
+3 Your Pretty Face Is Going to Hell (Originally Titled "Hard to Beat") 4:52<br>
+4 Penetration 3:35<br>
+5 Raw Power 4:22<br>
+6 I Need Somebody 4:50<br>
+7 Shake Appeal 3:00<br>
+8 Death Trip 5:53
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+   <div data-role="page" id="rocksub3" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Punk Rock</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+Punk rock is a genre formed in the United States, United Kingdom, and Australia in the mid-1970s in response to commercial and sentimental rock music. While it has its roots in 1960s America with Proto-Punk and Garage Rock along with groups such as The Stooges, MC5, and Monks, it didn't fully take off and become what is known as punk rock until the mid-1970s with groups such as Ramones, Sex Pistols, and The Clash. Although punk rock mainly had mainstream success in the United Kingdom in its earliest days, there were a few exceptions and it had a huge underground and cult following worldwide.<br>
+Punk rock is characterized by fast tempos, loud and distorted riffs, simple songs, frequent use of power chords, and shouted vocals. Many groups feature variations on these characteristics, but most early groups retained them. The genre takes heavy influence from Rock & Roll, Garage Rock, and Surf Rock with lesser influence from plenty of other genres. Punk rock lyrics are typically very aggressive and confrontational, and deal with topics considered taboo in mainstream music. Anti-establishment attitudes are a large part of punk lyrics. Although many groups frequently include light-hearted or comedic lyrics, the anger experienced by many punks is the main focus. While the punk aesthetic is stereotyped by mohawks, piercings, leather jackets, and jeans, it is actually extremely diverse and ranges from the minimalistic look of skinheads to the androgynous Patti Smith, and to the aforementioned stereotypical look.<br>
+Ever since the beginning of punk rock, the genre has morphed into several different sub-genres and movements as diverse as Oi!, Psychobilly, and Riot Grrrl. The most notable sub-genre would probably be Hardcore Punk, which is a much more primal, violent, and aggressive genre that has an entire movement of its own, which later evolved into Post-Hardcore among many other sub-genres. A revival of Pop Punk in the 1990s with groups such as Green Day, The Offspring, and Blink-182 finally brought mainstream success of punk music to America, and punk rock has remained a strong commercial force since. The punk scene also had a large influence on genres and movements such as Post-Punk and New Wave. The vast array of punk genres, movements, and cultures prove that it is an important genre that still has relevance today.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/theclash.png" style="width:300px; height:300px" title="theclash" alt="theclash"></a><br>
+</div>
+<div class="ui-block-b">
+<p>The Clash<br>London Calling<br>Release Date: 14 December 1979<br>Track Listing:<br>
+1 London Calling<br>
+2 Brand New Cadillac<br>
+3 Jimmy Jazz<br>
+4 Hateful<br>
+5 Rudie Can't Fail<br>
+6 Spanish Bombs<br>
+7 The Right Profile<br>
+8 Lost in the Supermarket<br>
+9 Clampdown<br>
+10 The Guns of Brixton<br>
+11 Wrong 'Em Boyo<br>
+12 Death or Glory<br>
+13 Koka Kola<br>
+14 The Card Cheat<br>
+15 Lover's Rock<br>
+16 Four Horsemen<br>
+17 I'm Not Down<br>
+18 Revolution Rock<br>
+19 Train in Vain [unlisted track]
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/huskerdu.png" style="width:300px; height:300px" title="huskerdu" alt="huskerdu"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Hüsker Dü<br>Zen Arcade<br>Release Date: July 1984<br>Track Listing:<br>
+1 Something I Learned Today 1:58<br>
+2 Broken Home, Broken Heart 2:01<br>
+3 Never Talking to You Again 1:39<br>
+4 Chartered Trips 3:33<br>
+5 Dreams Reoccurring 1:40<br>
+6 Indecision Time 2:07<br>
+7 Hare Krsna 3:33<br>
+8 Beyond the Threshold 1:35<br>
+9 Pride 1:45<br>
+10 I'll Never Forget You 2:06<br>
+11 The Biggest Lie 1:58<br>
+12 What's Going On 4:23<br>
+13 Masochism World 2:43<br>
+14 Standing by the Sea 3:12<br>
+15 Somewhere 2:30<br>
+16 One Step at a Time 0:45<br>
+17 Pink Turns to Blue 2:39<br>
+18 Newest Industry 3:02<br>
+19 Monday Will Never Be the Same 1:10<br>
+20 Whatever 3:50<br>
+21 The Tooth Fairy and the Princess 2:43<br>
+22 Turn On the News 4:21<br>
+23 Reoccurring Dreams 13:47<br>
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/violentfemmes.png" style="width:300px; height:300px" title="violentfemmes" alt="violentfemmes"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Violent Femmes<br>Violent Femmes<br>Release Date: April 1983<br>Track Listing:<br>
+1 Blister in the Sun 2:23<br>
+2 Kiss Off 2:53<br>
+3 Please Do Not Go 4:15<br>
+4 Add It Up 4:44<br>
+5 Confessions 5:27<br>
+6 Prove My Love 2:37<br>
+7 Promise 2:48<br>
+8 To the Kill 3:59<br>
+9 Gone Daddy Gone 3:03<br>
+10 Good Feeling 3:49
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="folksub1" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Freak Folk</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+Inspired by such artists as Limbus, Third Ear Band, and The Trees Community, Freak Folk is a sub-genre of Psychedelic Folk which emerged in the late 1990's out of the New Weird America underground folk scene. Spearheaded by bands like early Animal Collective and Danielson, it delves deeper into the realms of psychedelia, often incorporating unconventional sounds or instruments into the mix. The genre has since been used to describe artists like Comus and Exuma that predate the movement which have the same strange style of later artists.<br>
+Freak folk can range from a calm and/or playful sound to it, to a dark and/or aggressive one. The genre is also known well for its vocal styles, often being very intense, abstract and expressive in nature. It's also not uncommon for freak folk bands to incorporate tribal percussive instruments into the mix, such as bongos, congas, or taos drums.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/comus.png" style="width:300px; height:300px" title="comus" alt="comus"></a><br>
+</div>
+<div class="ui-block-b">
+<p>Comus<br>First Utterance<br>Release Date: 19 February 1971<br>Track Listing:<br>
+1 Diana 4:28<br>
+2 The Herald 5:30<br>
+3 Drip Drip 11:35<br>
+4 Song to Comus 7:25<br>
+5 The Bite 6:20<br>
+6 Bitten 0:30<br>
+7 The Prisoner 6:20
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/suncitygirls.png" style="width:300px; height:300px" title="suncitygirls" alt="suncitygirls"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Sun City Girls<br>Torch of the Mystics<br>Release Date: 1990<br>Track Listing:<br>
+1 Blue Mamba<br>
+2 Tarmac 23<br>
+3 Esoterica of Abyssynia<br>
+4 Space Prophet Dogon<br>
+5 The Shining Path<br>
+6 The Flower<br>
+7 Cafe Batik<br>
+8 Radar 1941<br>
+9 Papa Legba<br>
+10 The Vinegar Stroke<br>
+11 Burial in the Sky
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/dianecluck.png" style="width:300px; height:300px" title="dianecluck" alt="dianecluck"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Diane Cluck<br>Monarcana<br>Release Date: 10 July 2006<br>Track Listing:<br>
+1 Snake 0:21<br>
+2 Beatless Wonder 2:40<br>
+3 Real Good Time 2:35<br>
+4 Countless Times 0:50<br>
+5 Countless Times 0:33<br>
+6 Lucifer 1:11<br>
+7 Ribbon-Cutting Ceremony 1:17<br>
+8 Diamonds 1:30<br>
+9 Gardenovena 1:10<br>
+10 Leave Me Alone 2:14<br>
+11 My Virtue's Gone (Hooray Hooray) 1:03<br>
+12 Reverly 3:24<br>
+13 Dilapidalliance 3:18<br>
+14 Reveller 2:16<br>
+15 Untitled 1:31<br>
+16 Modern Day 3:36<br>
+17 Parlor Trick 2:56<br>
+18 Untitled 2:07<br>
+19 Pray Headaches Away 2:31<br>
+20 Honed. Hemmed In 6:17<br>
+21 Nothing But God 1:55<br>
+22 Untitled 1:21<br>
+23 If You See Sunlight 1:31
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+   <div data-role="page" id="folksub2" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Chamber Folk</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+Chamber Folk is a style of typically gentle fingerpicked acoustic guitar or harp-led music that initially gained prominence in the UK and the US during the mid-to-late 1960s. It is defined by an elegant and ornate style of arrangement and production, creating a sound that can be alternately described as wistful, fey, pastoral and whimsical, often featuring celestial, crystalline female vocals and a variety of instruments as accompaniment. These include, either separately or as part of an ensemble, piano, drums, harpsichord and various horns, woodwinds and stringed instruments (both orchestral and plucked).<br>
+While much of the style uses the traditional small ensemble sizes of Chamber Music within a non-classical acoustic style, Chamber Folk can also feature lush orchestral flourishes and similar aspects of arrangement found in other musical styles such as Baroque Pop, for example, Nico's Chelsea Girl and Joanna Newsom's Ys.<br>
+Artists such as Vashti Bunyan, Judee Sill, Nico, Duncan Browne and Nick Drake are commonly associated with the style, whilst more modern proponents of the genre include Joanna Newsom and Fleet Foxes.<br>
+Note: Chamber Folk is sometimes used interchangeably with "Baroque Folk", but the latter is more technically used to describe a specific fingerstyle employed by British guitarists such as Davy Graham, Bert Jansch and John Renbourn.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/joannanewsom.png" style="width:300px; height:300px" title="joannanewsom" alt="joannanewsom"></a><br>
+</div>
+<div class="ui-block-b">
+<p>Joanna Newsom<br>Ys<br>Release Date: 14 November 2006<br>Track Listing:<br>
+1 Emily 12:08<br>
+2 Monkey & Bear 9:28<br>
+3 Sawdust & Diamonds 9:55<br>
+4 Only Skin 16:53<br>
+5 Cosmia 7:17
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/nickdrake.png" style="width:300px; height:300px" title="nickdrake" alt="nickdrake"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Nick Drake<br>Five Leaves Left<br>Release Date: 1 September 1969<br>Track Listing:<br>
+1 Time Has Told Me 3:56<br>
+2 River Man 4:28<br>
+3 Three Hours 6:01<br>
+4 Way to Blue 3:05<br>
+5 Day Is Done 2:22<br>
+6 'Cello Song 3:58<br>
+7 The Thoughts of Mary Jane 3:12<br>
+8 Man in a Shed 3:49<br>
+9 Fruit Tree 4:42<br>
+10 Saturday Sun 4:00
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/nico.png" style="width:300px; height:300px" title="nico" alt="nico"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Nico<br>The Marble Index<br>Release Date: November 1968<br>Track Listing:<br>
+1 Prelude 0:50<br>
+2 Lawns of Dawns 3:12<br>
+3 No One Is There 3:36<br>
+4 Ari's Song 3:20<br>
+5 Facing the Wind 4:52<br>
+6 Julius Caesar (Memento Hodié) 4:57<br>
+7 Frozen Warnings 4:00<br>
+8 Evening of Light 5:33
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+   <div data-role="page" id="folksub3" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Indie Folk</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+Following the rise of the independent music scene in the 1980s, Indie Folk began to appear from various artists, combining the acoustic sounds of Contemporary Folk with the catchy melodies of Indie Rock. The genre began to reach new heights of popularity with the New Weird America movement in the early 2000s, particularly with artists such as Iron and Wine, Sufjan Stevens and Bright Eyes.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/neutralmilkhotel.png" style="width:300px; height:300px" title="neutralmilkhotel" alt="neutralmilkhotel"></a><br>
+</div>
+<div class="ui-block-b">
+<p>Neutral Milk Hotel<br>In the Aeroplane Over the Sea<br>Release Date: 10 February 1998<br>Track Listing:<br>
+1 The King of Carrot Flowers Pt. One 2:00<br>
+2 The King of Carrot Flowers Pts. Two & Three 3:06<br>
+3 In the Aeroplane Over the Sea 3:22<br>
+4 Two-Headed Boy 4:26<br>
+5 The Fool 1:53<br>
+6 Holland, 1945 3:12<br>
+7 Communist Daughter 1:57<br>
+8 Oh Comely 8:18<br>
+9 Ghost 4:08<br>
+10 [untitled] 2:16<br>
+11 Two-Headed Boy Pt. Two 5:13
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/themicrophones.png" style="width:300px; height:300px" title="themicrophones" alt="themicrophones"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+The Microphones<br>The Glow Pt. 2<br>Release Date: 25 September 2001<br>Track Listing:<br>
+1 I Want Wind to Blow 5:32<br>
+2 The Glow Pt. 2 4:58<br>
+3 The Moon 5:17<br>
+4 Headless Horseman 3:10<br>
+5 My Roots Are Strong and Deep 1:53<br>
+6 Instrumental 1:38<br>
+7 The Mansion 3:33<br>
+8 [unlisted] 1:46<br>
+9 (Something) 2:53<br>
+10 I'll Not Contain You 2:50<br>
+11 The Gleam Pt. 2 1:58<br>
+12 Map 5:00<br>
+13 You'll Be in the Air 2:41<br>
+14 I Want to Be Cold 1:41<br>
+15 I Am Bored 1:36<br>
+16 I Felt My Size 2:19<br>
+17 Instrumental 1:56<br>
+18 I Felt Your Shape 1:55<br>
+19 Samurai Sword 4:07<br>
+20 My Warm Blood 9:27
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/boniver.png" style="width:300px; height:300px" title="boniver" alt="boniver"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Bon Iver<br>For Emma, Forever Ago<br>Release Date: 8 July 2007<br>Track Listing:<br>
+1 Flume 3:39<br>
+2 Lump Sum 3:21<br>
+3 Skinny Love 3:59<br>
+4 The Wolves (Act I and II) 5:22<br>
+5 Blindsided 5:29<br>
+6 Creature Fear 3:06<br>
+7 Team 1:57<br>
+8 For Emma 3:41<br>
+9 re: stacks 6:41
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+    <div data-role="page" id="rapsub1" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Jazz Rap</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+A style of Hip Hop born out of the booming Hardcore Hip Hop scene in the late 1980s and early 1990s, jazz rap has a noticeably different feel, instead usually opting for a laid back, mellow sound. Containing rhythms very familiar to other forms of hip hop, samples and extra production details are almost exclusively culled from various forms of Jazz, such as Jazz-Funk, Hard Bop and Soul Jazz, using trumpets, saxophones, looped piano and double bass etc. Early jazz rap groups such as A Tribe Called Quest and Gang Starr initially balanced jazz with traditional hip hop evenly, but in just a few years artists such as Digable Planets and Guru (through his Jazzmatazz series) would introduce live jazz instrumentation as a focus. This live 'feel' would become an important trait of the music, sometimes showcasing improvised vocals or instrumental solos.<br>
+Lyrically, most MCs latched onto the idea of jazz as "cool" (Rebirth of Slick (Cool Like Dat) being a prime example) and pushed hip hop closer to street poetry, heavily engaging in slang and laid back attitudes that would best express this coolness. These lyrics generally downplay if not completely ignore materialistic themes, opting for Afrocentric and racially positive messages focusing on the past successes and failures of blacks (and to a lesser extent all people) and the ways that communities might succeed going forward.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/kendricklamar.png" style="width:300px; height:300px" title="kendricklamar" alt="kendricklamar"></a><br>
+</video>
+</div>
+<div class="ui-block-b">
+<p>Kendrick Lamar<br>To Pimp a Butterfly<br>Release Date: 15 March 2015<br>Track Listing:<br>
+1 Wesley's Theory (feat. George Clinton & Thundercat) 4:47<br>
+2 For Free? (Interlude) 2:10<br>
+3 King Kunta 3:54<br>
+4 Institutionalized (feat. Anna Wise, Bilal, Snoop Dogg) 4:31<br>
+5 These Walls (feat. Thundercat, Anna Wise, Bilal) 5:00<br>
+6 u 4:28<br>
+7 Alright 3:39<br>
+8 For Sale? (Interlude) 4:51<br>
+9 Momma 4:43<br>
+10 Hood Politics 4:52<br>
+11 How Much a Dollar Cost (feat. James Fauntleroy II & Ronald Isley) 4:21<br>
+12 Complexion (A Zulu Love) (feat. Rapsody) 4:23<br>
+13 The Blacker the Berry 5:28<br>
+14 You Aint Gotta Lie (Momma Said) 4:01<br>
+15 i 5:36<br>
+16 Mortal Man 12:07
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/atribecalledquest.png" style="width:300px; height:300px" title="atribecalledquest" alt="atribecalledquest"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+A Tribe Called Quest<br>The Low End Theory<br>Release Date: 24 September 1991<br>Track Listing:<br>
+1 Excursions 3:53<br>
+2 Buggin' Out 3:38<br>
+3 Rap Promoter 2:13<br>
+4 Butter 3:39<br>
+5 Verses From The Abstract 3:59<br>
+6 Show Business 3:53<br>
+7 Vibes and Stuff 4:18<br>
+8 The Infamous Date Rape 2:54<br>
+9 Check the Rhime 3:36<br>
+10 Everything Is Fair 2:59<br>
+11 Jazz (We've Got) 4:09<br>
+12 Skypager 2:13<br>
+13 What? 2:29<br>
+14 Scenario 4:10
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/quasimoto.png" style="width:300px; height:300px" title="quasimoto" alt="quasimoto"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Quasimoto<br>The Unseen<br>Release Date: 13 June 2000<br>Track Listing:<br>
+1 Welcome to Violence 0:49<br>
+2 Bad Character 1:55<br>
+3 Microphone Mathematics 3:14<br>
+4 Basic Instinct 2:08<br>
+5 Goodmorning Sunshine 3:00<br>
+6 Discipline 99 Pt. 0 (feat. Mr. Herb) 2:32<br>
+7 Low Class Conspiracy 2:26<br>
+8 Return of the Loop Digga 3:48<br>
+9 Real Eyes 3:22<br>
+10 Come On Feet 3:35<br>
+11 Bluffin 2:47<br>
+12 Boom Music 2:47<br>
+13 MHBs 2:05<br>
+14 Put a Curse on You 1:46<br>
+15 Astro Black 3:17<br>
+16 Green Power 2:59<br>
+17 Jazz Cats Pt. 1 3:08<br>
+18 24-7 (feat. MED) 2:48<br>
+19 The Unseen 2:53<br>
+20 Phony Game 1:56<br>
+21 Astro Travellin 2:59<br>
+22 Blitz 1:16<br>
+23 Axe Puzzles 2:33<br>
+24 Discipline 99 Pt. 1 (feat. Wildchild) 3:36
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+   <div data-role="page" id="rapsub2" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Experimental Hip Hop</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+Experimental Hip Hop is a style of Hip Hop music that refers to the experimental use of eccentric hip hop elements (usually including but not limited to abstract lyrics) in ways unconventional and considered unsuitable for traditional Hip Hop music. While Abstract Hip Hop and Experimental Hip Hop are sometimes used interchangeably, Abstract Hip Hop differs from Experimental Hip Hop in that the former refers directly to Hip Hop music with abstract lyrical content, while Experimental Hip Hop is an umbrella term for Hip Hop music that embodies elements of the genre that fall outside the constraints of convention. Experimental Hip Hop is usually electronically produced and sometimes incorporates elements of other sub-genres such as Turntablism or Plunderphonics.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/dannybrown.png" style="width:300px; height:300px" title="dannybrown" alt="dannybrown"></a><br>
+</div>
+<div class="ui-block-b">
+<p>Danny Brown<br>Atrocity Exhibition<br>Release Date: 30 September 2016<br>Track Listing:<br>
+1 Downward Spiral 2:52<br>
+2 Tell Me What I Don't Know 2:31<br>
+3 Rolling Stone (feat. Petite Noir) 3:47<br>
+4 Really Doe (feat. Kendrick Lamar, Ab-Soul, Earl Sweatshirt) 5:19<br>
+5 Lost 2:07<br>
+6 Ain't It Funny 2:57<br>
+7 Goldust 2:24<br>
+8 White Lines 2:23<br>
+9 Pneumonia 3:39<br>
+10 Dance in the Water 2:37<br>
+11 From the Ground (feat. Kelela) 2:18<br>
+12 When It Rain 3:15<br>
+13 Today 3:07<br>
+14 Get Hi (feat. B-Real) 3:33<br>
+15 Hell for It 3:49
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/clipping.png" style="width:300px; height:300px" title="clipping" alt="clipping"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+clipping.<br>There Existed an Addiction to Blood<br>Release Date: 18 October 2019<br>Track Listing:<br>
+1 Intro 1:04<br>
+2 Nothing Is Safe 4:57<br>
+3 He Dead (feat. Ed Balloon) 4:22<br>
+4 Haunting (Interlude) 0:57<br>
+5 La Mala Ordina (feat. Elcamino, Benny the Butcher, The Rita) 5:46<br>
+6 Club Down (feat. Sarah Bernat) 4:30<br>
+7 Prophecy (Interlude) 1:11<br>
+8 Run for Your Life (feat. La Chat) 4:52<br>
+9 The Show 3:04<br>
+10 Possession (Interlude) 2:10<br>
+11 All in Your Head (feat. Counterfeit Madison, Robyn Hood) 4:29<br>
+12 Blood of the Fang 4:39<br>
+13 Story 7 3:40<br>
+14 Attunement (feat. Pedestrian Deposit) 4:46<br>
+15 Piano Burning 18:00
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/djshadow.png" style="width:300px; height:300px" title="djshadow" alt="djshadow"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+DJ Shadow<br>Endtroducing.....<br>Release Date: 19 November 1996<br>Track Listing:<br>
+1 Best Foot Forward 0:49<br>
+2 Building Steam With a Grain of Salt 6:40<br>
+3 The Number Song 4:40<br>
+4 Changeling 7:51<br>
+  **Transmission 1<br>
+5 What Does Your Soul Look Like (Part 4) 5:08<br>
+6 [untitled] 0:25<br>
+7 Stem / Long Stem 9:21<br>
+  **Transmission 2<br>
+8 Mutual Slump 4:02<br>
+9 Organ Donor 1:57<br>
+10 Why Hip Hop Sucks in '96 0:43<br>
+11 Midnight in a Perfect World 4:57<br>
+12 Napalm Brain / Scatter Brain 9:23<br>
+13 What Does Your Soul Look Like (Part 1 - Blue Sky Revisit) 7:28<br>
+  **Transmission 3
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+   <div data-role="page" id="rapsub3" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Abstract Hip Hop</h1>
+    </div>
+	<h2>Summary</h2>
+	<p>
+Abstract hip hop is a style of Hip Hop which eschews many of the genre's conventions. It has become a fixture of the underground hip hop scene since the early 2000s. Lyrically, artists tend to focus on more abstract ideas such as existentialism or social institutions rather than everyday problems or braggadocio. The language and presentation of these lyrics also tends to avoid the more upfront, visceral language of typical hip hop, instead preferring extensive metaphors and symbolic word choice. Many artists tend to deviate from the typical conventions of rhyme and rhythm, often employing flows that border on Spoken Word. Musically, most abstract artists also feature unconventional beats that are akin in style to that of Experimental Hip Hop.
+</p>
+<h3>Albums/Artists</h3>
+	<div role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<img src="_images/deathgrips.png" style="width:300px; height:300px" title="deathgrips" alt="deathgrips"></a><br>
+</div>
+<div class="ui-block-b">
+<p>Death Grips<br>Bottomless Pit<br>Release Date: 6 May 2016<br>Track Listing:<br>
+1 Giving Bad People Good Idea 3:08<br>
+2 Hot Head 4:18<br>
+3 Spikes 3:05<br>
+4 Warping 2:54<br>
+5 Eh 2:53<br>
+6 Bubbles Buried in This Jungle 2:40<br>
+7 Trash 2:52<br>
+8 Houdini 2:44<br>
+9 BB Poison 3:06<br>
+10 Three Bedrooms in a Good Neighborhood 3:03<br>
+11 Ring a Bell 2:26<br>
+12 80808 3:17<br>
+13 Bottomless Pit 2:54
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/deltron3030.png" style="width:300px; height:300px" title="deltron3030" alt="deltron3030"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Deltron 3030<br>Deltron 3030<br>Release Date: 17 October 2000<br>Track Listing:<br>
+1 State of the Nation 0:28<br>
+2 3030 7:31<br>
+3 The Fantabulous Rap Extravaganza 0:22<br>
+4 Things You Can Do 5:01<br>
+5 Positive Contact 4:44<br>
+6 St. Catherine St. 0:44<br>
+7 Virus 4:27<br>
+8 Upgrade (A Brymar College Course) 4:11<br>
+9 New Coke 0:43<br>
+10 Mastermind 3:35<br>
+11 National Movie Review 0:55<br>
+12 Madness 4:39<br>
+13 Meet Cleofis Randolph the Patriarch 0:37<br>
+14 Time Keeps On Slipping 5:01<br>
+15 The News (A Wholly Owned Subsidiary of Microsoft Inc.) 0:51<br>
+16 Turbulence (Remix) 3:32<br>
+17 The Fantabulous Rap Extravaganza Part II 0:38<br>
+18 Battlesong 4:09<br>
+19 Love Story 3:27<br>
+20 Memory Loss 4:40<br>
+21 The Assman 640 Speaks 0:31
+</p>
+</div>
+<div class="ui-block-a">
+<img src="_images/madvillain.png" style="width:300px; height:300px" title="madvillain" alt="madvillain"></a><br>
+</div>
+<div class="ui-block-b">
+<p>
+Madvillain<br>Madvillainy<br>Release Date: 23 March 2004<br>Track Listing:<br>
+1 The Illest Villains 1:56<br>
+2 Accordion 1:58<br>
+3 Meat Grinder 2:11<br>
+4 Bistro 1:07<br>
+5 Raid (feat. MED) 2:30<br>
+6 America's Most Blunted (feat. Lord Quas) 3:54<br>
+7 Sickfit (Instrumental) 1:22<br>
+8 Rainbows 2:51<br>
+9 Curls 1:35<br>
+10 Do Not Fire! (Instrumental) 0:52<br>
+11 Money Folder 3:02<br>
+12 Shadows of Tomorrow (feat. Lord Quas) 2:36<br>
+13 Operation Lifesaver AKA Mint Test 1:30<br>
+14 Figaro 2:25<br>
+15 Hardcore Hustle (feat. Wildchild) 1:21<br>
+16 Strange Ways 1:51<br>
+17 Fancy Clown (feat. Viktor Vaughn) 1:55<br>
+18 Eye (feat. Stacy Epps) 1:57<br>
+19 Supervillain Theme (Instrumental) 0:52<br>
+20 All Caps 2:10<br>
+21 Great Day 2:17<br>
+22 Rhinestone Cowboy 4:01
+</p>
+</div>
+</div>
+</div>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="page6" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Website Survey</h1>
+    </div>
+	<form action="mailto:cjmarter.mail.mccneb.edu" method="post">
+	<fieldset data-role="controlgroup">
+ <legend>How Would You Rate This Website's Performance?</legend>
+<label for="meal_rate">Performance Rating</label>
+<select name="perf_rate" id="perf_rate">
+<option value="Poor">Poor</option>
+<option value="Needs Work">Needs Work</option>
+<option value="Fair">Fair</option>
+<option value="Good">Good</option>
+<option value="Excellent">Excellent</option>
+</select>
+<fieldset data-role="controlgroup">
+ <legend>How Would You Rate This Website's Ease Of Navigation?</legend>
+<label for="service_rate">Navigation Rating</label>
+<select name="nav_rate" id="nav_rate">
+<option value="Poor">Poor</option>
+<option value="Needs Work">Needs Work</option>
+<option value="Fair">Fair</option>
+<option value="Good">Good</option>
+<option value="Excellent">Excellent</option>
+</select>
+<fieldset data-role="controlgroup">
+ <legend>How Would You Rate Your Overall Experience With This Website?</legend>
+<label for="overall_exp">Overall Experience</label>
+<select name="overall_exp" id="overall_exp">
+<option value="Poor">Poor</option>
+<option value="Needs Work">Needs Work</option>
+<option value="Fair">Fair</option>
+<option value="Good">Good</option>
+<option value="Excellent">Excellent</option>
+</select>
+<fieldset data-role="controlgroup" data-type="horizontal">
+<legend>Would You Recommend This Website To A Friend?</legend>
+<input type="checkbox" name="recommend_web" id="yes" value="Yes">
+<label for="yes">Yes</label>
+<input type="checkbox" name="recommend_web" id="no" value="No">
+<label for="no">No</label>
+</fieldset>
+<div class="ui-field-contain">
+<label for="name">Name:</label>
+<input type="text" name="bname" id="bname" value="" />
+</div>
+<div class="ui-field-contain">
+<label for="email">Email:</label>
+<input type="text" name="email" id="email" value="" />
+</div>
+<div class="ui-field-contain">
+<input type="submit" name="submit" value="Send" />
+</div>
+</form>
+ <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+  
+    <div data-role="page" id="page7" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Credits</h1>
+    </div>
+	<p>Credit for all genre descriptors and cover art for albums goes to <a href="https://rateyourmusic.com/">rateyourmusic.com</a>
+	<p>All pictures used are royalty free</p>
+	<p>All music belongs to their respective artists</p>
+	<p>I have no rights</p>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+
+        <div data-role="page" id="page8" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+  <p>
+      <a href="" data-rel="back" button class="btn"><i class="fa fa-home">Go back</a></i></button>
+      </p>
+      <h1>Design Docs</h1>
+    </div>
+	<p>
+<img src="_images/wireframe1.png" style="width:1400px; height:700px" />
+<img src="_images/wireframe2.png" style="width:1400px; height:700px" />
+</p>
+	 <div data-role="footer" data-position="fixed">
+  <h4>Created By: <a href="mailto:cjmarter.mail.mccneb.edu">Cole Marter</a><br></h4>
+  </div>
+  </div>
+</body>
+</html>
